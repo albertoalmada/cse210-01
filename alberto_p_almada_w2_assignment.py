@@ -1,3 +1,6 @@
+#W02 assignment
+#Alberto Parreira Almada
+
 def main():
     player = next_player("")
     board = create_board()
@@ -6,7 +9,7 @@ def main():
         make_move(player, board)
         player = next_player(player)
     display_board(board)
-    print("Good game. Thanks for playing!") 
+    print("Nice game. Let's play again?") 
 
 def create_board():
     board = []
